@@ -1,0 +1,15 @@
+✱ Running bash -c "./m1 1000"   \\ Output will appear after run is complete.
+Test batch size: 1000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-CPU==
+Op Time: 8300.32 ms
+Conv-CPU==
+Op Time: 23970.4 ms
+
+Test Accuracy: 0.886
+Flat profile:
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 84.30     32.27    32.27        2    16.14    16.14  conv_forward_cpu(float*, float const*, float const*, int, int, int, int, int, int)
